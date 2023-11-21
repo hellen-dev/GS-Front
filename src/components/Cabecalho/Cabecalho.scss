@@ -1,5 +1,22 @@
-
 .active{
-    background-color: #fff;
-    color: red !important;
+    border-bottom: 2px solid white;
+    background-color: #D3756B;
+    color: #FFC3A1 !important;
+  }
+
+.botao {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #FFC3A1;
+  display: block;
+  font-weight: bold;
+  padding: 15px 10px;
+  transition: background-color ease-out 300ms, color ease-out 300ms;
+  background: none;
+  border: none;
+
+    &:hover{
+      background-color: #D3756B;
+      color: #FFC3A1;
+  }
 }

@@ -1,0 +1,40 @@
+@mixin bg-cores($cores...) {
+    background: linear-gradient(to left, $cores);
+}
+
+
+.rodape {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    @include bg-cores(#A75D5D, #D3756B, #F0997D, #F0997D);
+
+    p {
+        color: #A75D5D;
+    
+    }
+    
+    h5 {
+        color: #A75D5D;
+        text-align: center;
+        font-weight: 900;
+    }
+}
+
+.container-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    color: white;
+  
+    img {
+      width: 3rem;
+      margin: 1rem;
+    }
+  
+    h1 {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin: 0;
+    }
+  }
+

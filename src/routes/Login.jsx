@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
-
+  const navigate = useNavigate();
 
   const [usuario, setUsuario] = useState({
     email: "",
@@ -31,8 +31,10 @@ export default function Login() {
 
         sessionStorage.setItem("token-user", tokenUser);
         sessionStorage.setItem("data-user", JSON.stringify(user));
+        
+        navigate("/");
+        window.location.reload();
 
-        Navigate("/");
       } else {
         alert("Login ou senha incorretos!");
 
@@ -43,7 +45,8 @@ export default function Login() {
 
       }
     } catch (error) {
-      console.log(error);
+      console.error("Erro durante o processo de login:", error);
+      alert("Ocorreu um erro durante o login. Por favor, tente novamente mais tarde.");
     }
   };
 
