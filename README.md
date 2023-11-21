@@ -1,7 +1,7 @@
 # Participantes
-Hellen Ramos Gonçalves Assis - RM98294
-
 Ana Laura Juarez Zerlim - RM98065
+
+Hellen Ramos Gonçalves Assis - RM98294
 
 ## Notas
 
