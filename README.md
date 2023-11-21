@@ -1,3 +1,12 @@
+# Participantes
+Hellen Ramos Gonçalves Assis - RM98294
+Ana Laura Juarez Zerlim - RM98065
+
+## Notas
+
+Executar 
+    - json-server --watch dados.json  --port 5000
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
