@@ -5,9 +5,11 @@ Ana Laura Juarez Zerlim - RM98065
 
 ## Notas
 
-Para realizar login em nossa aplicação, realizar o comando
+Para realizar login em nossa aplicação, executar o comando
 - json-server --watch dados.json  --port 5000
 
+Credenciais para Login disponíveis no arquivo
+- dados.json
 
 # React + Vite
 
