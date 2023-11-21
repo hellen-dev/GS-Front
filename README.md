@@ -45,13 +45,4 @@ Currently, two official plugins are available:
     +     <RouterProvider router={router}/>
     + </React.StrictMode>
 );
-## Vamos adicionar o componente Outlet em App.
--  return (
-    +    <>
-    +        <Outlet />
-    +       </>
-    )
-    ## Ou seja, vai ficar assim:
-    return (<>)
-    # Rotas dinâmicas
     
