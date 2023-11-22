@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
+import './styles/Login.scss';
 
 export default function Login() {
   const navigate = useNavigate();
@@ -51,14 +52,15 @@ export default function Login() {
   };
 
   return (
-    <div>
-      <h1>Login</h1>
+
+    <div className="Login">
+      <h1 className="title-form">Login</h1>
 
       <div>
-        <form onSubmit={handleSubmit}>
-          <fieldset>
-            <legend>Dados de Acesso:</legend>
-            <div>
+        <form onSubmit={handleSubmit} className="form">
+          <fieldset className="field-form">
+            <legend className="legend-form">Dados de Acesso:</legend>
+            <div className="email">
               <label htmlFor="idEmail">Email:</label>
               <input
                 type="email"
@@ -69,7 +71,7 @@ export default function Login() {
                 onChange={handleChange}
               />
             </div>
-            <div>
+            <div className="password">
               <label htmlFor="idSenha">Senha:</label>
               <input
                 type="password"
@@ -81,11 +83,12 @@ export default function Login() {
               />
             </div>
             <div>
-              <button>LOGIN</button>
+              <button className="btn-login">LOGIN</button>
             </div>
           </fieldset>
         </form>
       </div>
     </div>
+
   );
 }

@@ -1,7 +1,9 @@
 @import '../abstract/variaveis';
 
 .banner {
-    background: url(/img/banner-teste2.png) 5% center no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background: url(/img/banner-teste4.jpg) 5% center no-repeat;
     min-height: 350px;
     background-size: cover;
     display: flex;
@@ -9,13 +11,15 @@
     align-items: center;
     opacity: 0.9;
     .inner-banner {
-        padding: 3rem;
+        padding: 2.5rem;
         background-color: $cor-terciaria;
         opacity: 0.9;
         border-radius: 40px;
         h1 {
             font-size: $tamanho-do-texto;
             color: $cor-primaria;
+            opacity: 0.99;
+            margin-bottom: 0.4rem
         }
         h2{
             font-size: $tamanho-do-texto / 2;

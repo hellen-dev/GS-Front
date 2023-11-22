@@ -28,12 +28,12 @@
         font-weight: 300;
         margin-top: 25px;
         margin-bottom: 20px;
-        color: $cor-primaria;
+        color: $cor-secundaria;
       }
       p {
         font-size: $tamanho-do-texto / 3;
         font-weight: 300;
-        color: $cor-primaria;
+        color: $cor-secundaria;
         line-height: 1.25rem;
       }
       .img-container {
@@ -72,7 +72,7 @@
       p {
         font-size: $tamanho-do-texto / 3;
         font-weight: 300;
-        color: $cor-primaria;
+        color: #212c30;
         line-height: 1.25rem;
         margin: 1rem 0;
       }
@@ -81,7 +81,7 @@
         padding-bottom: 2px;
 
         img {
-          max-width: 100%;
+          max-width: 90%;
           display: block;
           margin: 0 auto;
         }
