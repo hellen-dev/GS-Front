@@ -52,7 +52,7 @@ export default function Cabecalho() {
             )}
           </ul>
         </nav>
-
+//bem vindo
         {userInfo && (
           <div className={styles.userInfo}>
             <img src="/img/voluntario-user.png" alt="ícone pessoa e coração do lado" />
